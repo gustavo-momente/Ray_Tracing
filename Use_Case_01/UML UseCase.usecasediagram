@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="3566a548-da68-40c1-910d-5c8ee43c0059" name="UML UseCase" linkedPackageId="6d32c14c-ed35-440f-8305-9447d218dc11" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="3a0e8fd8-f58d-4bda-9628-7057d2ffc870" name="Utilizateur" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ee409485-1ec5-4139-befc-9b38cbfae6c7" />
+        <targetEnds>
+          <association Id="4b5d6c99-7ce7-443a-9933-010ff659159e" isDerived="false" sourceEndRoleName="Utilizateur" targetEndRoleName="Ajouter scène" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="bca13a69-cebb-4e2f-9a29-c1cb5d9a3253" LastKnownName="Ajouter un scénario" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f7f7706f-9484-4c79-b698-23b067f6aa0a" name="Utilizateur" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="df52826f-8862-4a2d-bda8-07d5743fb560" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="011efed2-1ea2-43fe-b961-a88c35335964" name="Ajouter scène" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="82c9d57a-6022-4d09-8b70-3e0145a78992" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="4dd5f0dc-3a53-4e06-a939-dedff4ffeab5" />
+          </association>
+          <association Id="4261ab5d-9cdd-4174-8cf1-408e0a61c586" isDerived="false" sourceEndRoleName="Utilizateur" targetEndRoleName="Demander la sauvegarde d'une scène" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="06e91eaa-1e22-45ad-a7e8-fae6d29b601c" LastKnownName="Demander la sauvegarde d'une scène" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b8ad1ec3-fc94-471a-99d7-35455dc1a1f0" name="Utilizateur" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="1fc601ea-0d49-4cb9-b7eb-3a551ecb686d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="4b863cdd-0b99-4b37-98f6-42222e2c0384" name="Demander la sauvegarde d'une scène" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="093f9682-be51-472e-9956-4e12f53d2b57" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="5f2d37a9-a442-413b-bbd5-892d1168ca7c" />
+          </association>
+          <association Id="7fd53b8c-df45-410f-8bd2-73e733cbe1a2" isDerived="false" sourceEndRoleName="Utilizateur" targetEndRoleName="Configurer le lanceur de rayon " isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="84baed0c-f8b2-46d4-81bc-028d4a37974a" LastKnownName="Configurer le lanceur de rayon " />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="bce10460-0679-482a-a1d7-72eb30c9680f" name="Utilizateur" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="d4e291dd-599f-472c-b7c2-0183169c4dbf" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c59c88ae-4d22-4bdb-80b8-222cbaa26f82" name="Configurer le lanceur de rayon " isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="fa54a94d-e2bd-4d39-bcaa-18489737ab9e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="5bb08ed1-086c-4d0e-a320-e76270ee8b3e" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="bca13a69-cebb-4e2f-9a29-c1cb5d9a3253" name="Ajouter un scénario" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="504eac7c-a5c0-4d8f-913c-614bfd4b7c96" />
+        <suppliersInternal>
+          <dependency Id="160aee06-4c2f-4d08-859c-b1a4c1471954">
+            <useCaseMoniker Id="7237e63d-2569-4dd3-8713-24167db8d38b" LastKnownName="Vérifier le scénario" />
+            <elementDefinition Id="9d2ee980-bf10-47d7-8651-968bcffd5378" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="06e91eaa-1e22-45ad-a7e8-fae6d29b601c" name="Demander la sauvegarde d'une scène" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="7609ef6e-6973-45ef-b9cc-251c9c4c5349" />
+        <suppliersInternal>
+          <dependency Id="da64c9fd-bf26-4662-8d0f-eac74959d04b">
+            <useCaseMoniker Id="1b473d95-ca6a-49eb-9119-7200fe31f0f9" LastKnownName="Enregistrez la scène" />
+            <elementDefinition Id="0bfdc0f0-e993-4d20-b3d2-890a86d08863" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="e0464989-68e7-4edf-bbc9-d0f5d03d488b" name="Tracer" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="894b22f9-9316-46d0-9a51-990abce151b1" />
+        <targetEnds>
+          <association Id="8ad43e17-ad55-456f-a96d-b7ccdcf56ff6" isDerived="false" sourceEndRoleName="Automate fini" targetEndRoleName="Vérifier la scène." isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="7237e63d-2569-4dd3-8713-24167db8d38b" LastKnownName="Vérifier le scénario" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a52f9374-7965-4268-8895-80fbc6a72b38" name="Automate fini" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="bdfa2132-df88-4aaf-ac70-477093c4cf1f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7da396b3-c50b-46da-bfdf-4356918fe872" name="Vérifier la scène." isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="c3f13a88-0b29-477a-8a1d-4c9ee67ec34d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="a3e01666-31be-499a-b55d-b7e8892512fb" />
+          </association>
+          <association Id="2d40e353-9f80-4706-91b5-774c32d90d14" isDerived="false" sourceEndRoleName="Automate fini" targetEndRoleName="Développer la scène" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="655dae0a-ea97-40db-b2a3-4f52061cddfb" LastKnownName="Développer la scène" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="59869e83-0200-49e4-b02d-e157dbb256e7" name="Automate fini" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="eb857021-b726-4e61-ae93-b79aa156fbf2" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="00ad607c-b8dc-4198-8f1f-ebcb3811c849" name="Développer la scène" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="c75797bd-69b3-485f-b314-f1f490f66dd5" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="a33b63a2-91c8-4df8-93e2-5f781b60f009" />
+          </association>
+          <association Id="4ccc1a4d-d020-4d26-9108-265d0d49ce6c" isDerived="false" sourceEndRoleName="Automate fini" targetEndRoleName="Imprimer la scène" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="84f44c6c-a65e-4b90-bcb2-08c00e267de3" LastKnownName="Imprimer la scène" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a6a89a97-2528-4977-8744-10f4b5668251" name="Automate fini" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a15f1411-85b0-4634-a871-dda3c4f5f870" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="1617ccd7-432e-48fc-acc7-9f47ef77f99f" name="Imprimer la scène" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="5cb83da5-4e4b-44ae-9deb-3c3968c34699" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="48ac9623-72a5-4b7b-a370-b21bd895e970" />
+          </association>
+          <association Id="f54fc62e-637d-4f88-b6c6-25a514f8bdbf" isDerived="false" sourceEndRoleName="Automate fini" targetEndRoleName="Enregistrez la scène" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="1b473d95-ca6a-49eb-9119-7200fe31f0f9" LastKnownName="Enregistrez la scène" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="736a6fb0-a52c-4866-8772-c691c9af41d8" name="Automate fini" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="60e5a3ef-2ffd-4b3d-a261-5418621972de" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8d1cd3e4-63d1-4355-bbb5-853b35a25b73" name="Enregistrez la scène" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="d15883f9-02d5-41e7-9567-e98a50526938" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="216879e6-2b19-4986-a2fa-5074a108f1b9" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="7237e63d-2569-4dd3-8713-24167db8d38b" name="Vérifier le scénario" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="1224777d-428a-46fb-b138-897f8e328925" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="655dae0a-ea97-40db-b2a3-4f52061cddfb" name="Développer la scène" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="5c0fa6f9-d41e-43cd-bb35-6197c54c621e" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="84f44c6c-a65e-4b90-bcb2-08c00e267de3" name="Imprimer la scène" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="0e8c4cdb-ab7c-4962-9de4-19ad0a52436f" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="1b473d95-ca6a-49eb-9119-7200fe31f0f9" name="Enregistrez la scène" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="771a0530-8d29-47b6-a25f-45b0c753d4ae" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="84baed0c-f8b2-46d4-81bc-028d4a37974a" name="Configurer le lanceur de rayon " isAbstract="false" isLeaf="false">
+        <elementDefinition Id="d35ac152-d739-4749-811c-bda79bd04ee2" />
+        <suppliersInternal>
+          <dependency Id="1225e06e-677b-4e45-985f-40729f536f2a">
+            <useCaseMoniker Id="655dae0a-ea97-40db-b2a3-4f52061cddfb" LastKnownName="Développer la scène" />
+            <elementDefinition Id="e749206d-4fa6-4906-bbd8-e4e64ea47498" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="6d32c14c-ed35-440f-8305-9447d218dc11" name="Use_Case_01">
+    <elementDefinition Id="3f5e06a7-cd75-4e4d-aef0-adb296c9c6da" />
+    <profileInstances>
+      <packageHasProfileInstances Id="4412703f-5292-41fc-82dd-1a0a8dc01b00">
+        <profileInstance Id="7539963a-afa9-42d5-af1b-6fb16130cc83" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="2f8ea228-f3e1-49a9-a983-71252cce6cc9">
+        <profileInstance Id="d536a8c8-678a-42af-89d5-c9a6bc0e71bc" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</useCaseModelRoot>
