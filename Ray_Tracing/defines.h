@@ -34,7 +34,7 @@
 #endif  
 
 //PARALLEL enables multi-processor using
-#define PARALLEL
+//#define PARALLEL
 
 //If TWOWAY is defined, when there is a diffuse reflection instead of returning a single IRay
 //the reflection will return two. Both having half the normal intensity, but one of them will
