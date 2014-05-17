@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="DiffusePlane" Collapsed="true">
+    <Position X="7.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>DiffuseObjects.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DiffuseSphere" Collapsed="true">
+    <Position X="10.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAIAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>DiffuseObjects.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IMRObject" Collapsed="true">
+    <Position X="13.25" Y="4.25" Width="1.5" />
+    <InheritanceLine Type="IPhysicalObject" FixedToPoint="true">
+      <Path>
+        <Point X="11.75" Y="2.441" />
+        <Point X="11.75" Y="2.875" />
+        <Point X="14.062" Y="2.875" />
+        <Point X="14.062" Y="4.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAkAAAIAAgAAAAEAAAAAAAAAABAgAAAABAgAgAKBAAQ=</HashCode>
+      <FileName>MultiReflectionObjects.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRPlane" Collapsed="true">
+    <Position X="10" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAIAAAAAAQAAAIAoAIAAAAAAAAAACCAAEgAA=</HashCode>
+      <FileName>MultiReflectionObjects.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRSphere" Collapsed="true">
+    <Position X="13.5" Y="6.75" Width="1.5" />
+    <InheritanceLine Type="SpecularSphere" ManuallyRouted="true">
+      <Path>
+        <Point X="11.75" Y="3.941" />
+        <Point X="11.75" Y="4.375" />
+        <Point X="13" Y="4.375" />
+        <Point X="13" Y="5.347" />
+        <Point X="13.917" Y="5.347" Type="JumpStart" />
+        <Point X="14.083" Y="5.347" Type="JumpEnd" />
+        <Point X="14.25" Y="5.347" />
+        <Point X="14.25" Y="6.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAACAQAAQIAoAIAAAAAAAAAAACAAEgAA=</HashCode>
+      <FileName>MultiReflectionObjects.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpecularPlane" Collapsed="true">
+    <Position X="8.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAIAAAAAAAAAAIAoAIAAAAAAACAAAGAAEgAA=</HashCode>
+      <FileName>SpecularObjects.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpecularSphere" Collapsed="true">
+    <Position X="11" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgEAAAACIAAAAQAAAAAIAoAIAAIAAAAAIAACAAEgAA=</HashCode>
+      <FileName>SpecularObjects.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SceneObj" Collapsed="true">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAAIAIAAAAAgAAAAAAAAEAAA=</HashCode>
+      <FileName>primitives.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IScreen" Collapsed="true">
+    <Position X="4.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABIBAAAAAAAACAAEAIAAIAIAAAIAAAAAIAAAAEAAA=</HashCode>
+      <FileName>primitives.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollisionObject" Collapsed="true">
+    <Position X="14.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAIAAAQIAAAAAAAAAAAIQEAAA=</HashCode>
+      <FileName>primitives.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Screen" Collapsed="true">
+    <Position X="4.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgBIFAAAAAAAADABEAIAAIAIAQAAAgEAAIAAAAEgAA=</HashCode>
+      <FileName>primitives.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ilight" Collapsed="true">
+    <Position X="2.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAKAAAIAAAAAAAAIAIAAACAAAAAgAAAAEAAA=</HashCode>
+      <FileName>primitives.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="light" Collapsed="true">
+    <Position X="2.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAIAAAAAAAAIAIAIAAACAAAgAAAAEAAA=</HashCode>
+      <FileName>primitives.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IObserver" Collapsed="true">
+    <Position X="6.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAIAIAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>primitives.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Observer" Collapsed="true">
+    <Position X="6.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAIAIAAAAAAAAAAAAAAECAA=</HashCode>
+      <FileName>primitives.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IRay" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAIAAAAgAIAIAgAEBAAAAAAAAAAAAAAAiAAAAEACA=</HashCode>
+      <FileName>primitives.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ray" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAIACAAgAIKIAAAEBAAAAAAAAACAAEAAiAAAAEACA=</HashCode>
+      <FileName>primitives.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IPhysicalObject" Collapsed="true">
+    <Position X="11" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAACAAAQAAAIAoAIAAAAAAIABAACAAEgAA=</HashCode>
+      <FileName>primitives.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scene" Collapsed="true">
+    <Position X="14.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAIAAKABAAAgiAAAIAAAQAIAACBAAEIAAAQEACQ=</HashCode>
+      <FileName>primitives.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ray_tracer" Collapsed="true">
+    <Position X="16.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAIAQAAAAAAAAAQAAAAIAAAAAAAJECQECAABAQBBE=</HashCode>
+      <FileName>Ray_tracer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="sub_parts" Collapsed="true">
+    <Position X="16.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAACAgAAAAAAAAAgQCAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>primitives.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="object_type" Collapsed="true">
+    <Position X="16.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAEAAAAAAABAABQAAAAAQAgAAQAAAAAACAAAA=</HashCode>
+      <FileName>primitives.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

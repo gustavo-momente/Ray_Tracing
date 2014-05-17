@@ -1,0 +1,132 @@
+﻿#######################################################################################################
+#######################################################################################################
+#####											          #####
+#####	########     ###    ##    ##    ######## ########     ###     ######  ######## ########   #####
+#####	##     ##   ## ##    ##  ##        ##    ##     ##   ## ##   ##    ## ##       ##     ##  #####
+#####	##     ##  ##   ##    ####         ##    ##     ##  ##   ##  ##       ##       ##     ##  #####
+#####	########  ##     ##    ##          ##    ########  ##     ## ##       ######   ########   #####
+#####	##   ##   #########    ##          ##    ##   ##   ######### ##       ##       ##   ##    #####
+#####	##    ##  ##     ##    ##          ##    ##    ##  ##     ## ##    ## ##       ##    ##   #####
+#####	##     ## ##     ##    ##          ##    ##     ## ##     ##  ######  ######## ##     ##  #####
+#####												  #####
+#######################################################################################################
+#######################################################################################################
+#                  		  	                                                     	      #
+#       	  REFERENCE GUIDE FOR UTILIZATION OF A .TXT FILE AS ENTRY			      #
+#                                   		                                     	    	      #
+#######################################################################################################
+#                                                                       		    	      #
+#     		1. The symbol # represents a commentary to the code           		    	      #
+#  		2. To entry an object you must enter object_name in lowcase letter   	    	      #
+#   	        3. You must select which type (type* or *) of method right after de object name       #
+#       	4. All your object description must be on the same line         	    	      #
+#             	5. Parameters must be separeted by ' '(space)   		            	      #
+#               6. Spaces between lines (\n) will be ignored			            	      #
+#		7. Lines must end with endl 						    	      #
+#                                                                       		    	      #
+#######################################################################################################
+#											    	      #
+#    					  POSSIBLE ENTRIES					      #
+#											    	      #
+#######################################################################################################
+#											    	      #
+#	Names						Types			    	    	      #
+#											    	      #
+#	1. Screen 					0 1 2			    	      	      #
+#											    	      #	
+#	Type0 : Screen();									      #
+#	Type1 : Screen(Vector3f aCenter,Vector3f av1, Vector3f av2, Vector2i apixelDim);	      #
+#	Type2 : Screen(float xC,float yC,float zC, float x_v1, float y_v1,float z_v1,		      #
+#				float x_v2, float y_v2, float z_v2, int w_Pixel, int h_Pixel);	      #
+#											    	      #
+#	2. Observer					1 2 3				      	      #
+#											    	      #
+#	Type0 : Observer();									      #
+#	Type1 : Observer(float x,float y, float z);						      #
+#	Type2 : Observer(Vector3f aCenter);							      #
+#											    	      #
+#	3. light					1 2 3 4			    	       	      #
+#											    	      #
+#	Type0 : light();									      #
+#	Type1 : light(Vector3f center_value, float value_b, float value_g,float value_r);	      #
+#	Type2 : light(Vector3f center_value, Vector3f intensity_value);				      #
+#	Type3 : light(Vector3f center_value);							      #
+#											    	      #
+#	4. Object								    	      	      #
+#											    	      #
+#         4.a SpecularPlane		 		1 2 3				              #
+#											    	      #
+#	  Type0 : SpecularPlane();								      #
+#	  Type1 : SpecularPlane(Vector3f aPoint,Vector3f aNormal, Vector3f anIntensity);	      #
+#	  Type2 : SpecularPlane(float xP,float yP,float zP, float xN,float yN, float zN, 	      #
+#								float Bi,float Gi, float Ri);  	      #
+#											    	      #
+#	  4.b SpecularSphere	 			1 2 3				      	      #
+#											    	      #
+#  	  Type0 : SpecularSphere();								      #
+#	  Type1 : SpecularSphere(Vector3f aCenter,float aRadius, Vector3f anIntensity);		      #
+#	  Type2 : SpecularSphere(float xC,float yC,float zC, float aRadius, float Bi, 		      #
+#									float Gi, float Ri);          #
+#											    	      #
+#	  4.c DiffusePlane	 			1 2 3				      	      #
+#											    	      #
+#	  Type0 : DiffusePlane();								      #
+#	  Type1 : DiffusePlane(Vector3f aPoint,Vector3f aNormal, Vector3f anIntensity);		      #
+#	  Type2 : DiffusePlane(float xP,float yP,float zP, float xN,float yN, float zN,		      #
+#							 float Bi, float Gi, float Ri);		      #
+#											    	      #
+#	  4.e DiffuseSphere				1 2 3				      	      #
+#											    	      #
+#	  Type0 : DiffuseSphere();								      #
+#	  Type1 : DiffuseSphere(Vector3f aCenter,float aRadius, Vector3f anIntensity);		      #
+#	  Type2 : DiffuseSphere(float xC,float yC,float zC, float aRadius, float Bi,		      # 
+#									float Gi, float Ri);	      #
+#											    	      #
+#	  4.f MRPlane				        1 2 3                                         #
+#											    	      #
+#	  Type0 : MRPlane();									      #
+#	  Type1 : MRPlane(Vector3f aPoint, Vector3f aNormal, Vector3f aColorIntensity, 		      #
+# 	  	float aRefractiveIndex, float aLamabertian, float aSpecular, float aRefractive);      #
+#	  Type2 : MRPlane(float aP_x, float aP_y, float aP_z, float aN_x, float aN_y,		      #
+# 			float aN_z, float aBi, float aGi, float aRi, float aRefractiveIndex,          #
+#	  				    float aLamabertian, float aSpecular, float aRefractive);  #
+#											    	      #
+#	  4.g MRSphere					1 2 3				      	      #
+#											    	      #
+#	  Type0 : MRSphere();									      #
+#	  Type1 : MRSphere(Vector3f aCenter,float aRadius, Vector3f anIntensity,		      #
+#		float aRefractiveIndex, float aLamabertian, float aSpecular, float aRefractive);      #
+#	  Type2 : MRSphere(float xC,float yC,float zC, float aRadius, float Bi, float Gi, float Ri,   #
+#		float aRefractiveIndex, float aLamabertian, float aSpecular, float aRefractive);      #
+#											    	      #
+#											    	      #
+#######################################################################################################
+#											    	      #
+#    					       EXEMPLE					    	      #
+#											    	      #
+#######################################################################################################
+#											    	      #
+#Screen type1 : (Vector3f aCenter, Vector3f av1, Vector3f av2, Vector2i apixelDim)	    	      #
+#											    	      #
+screen type1 0 3 0 5 0 0 0 0 -5 1024 1024 endl						    	      #
+#											    	      #
+#Observer type1 : (Vector3f aCenter)							    	      #
+#											    	      #
+observer type1 0 0 0 endl								      	      #
+#											    	      #
+#light type1 : ( Vector3f center_value, Vector3f intensity_value)			    	      #
+#											    	      #
+light type1 0 2 2 255 255 255 endl						 	       	      #
+#											    	      #
+#DiffuseSphere type1 : (Vector3f aCenter,float aRadius, Vector3f anIntensity)		    	      #
+# 											   	      #
+object DiffuseSphere type1 0 10 0 5 0 1 0 endl						   	      #
+#											   	      #
+#######################################################################################################
+#######################################################################################################
+
+
+
+
+
+
