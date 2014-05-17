@@ -1,0 +1,62 @@
+# All_maps
+#map_two["SpecularPlane"]		= specularPlane;
+#map_two["SpecularRectangle"]	= specularRectangle ;
+#map_two["SpecularSphere"]		= specularSphere;
+#map_two["DiffusePlane" ]		= diffusePlane;
+#map_two["SpecularSphere"]		= specularSphere;
+#map_two["DiffuseRectangle"]	= diffuseRectangle;
+#map_two["DiffuseSphere"]		= diffuseSphere; 
+#map_two["MRPlane"]				= mrplane;
+#map_two["MRSphere"]			= mrsphere;
+
+
+#Same as test.cpp
+
+#Adding the screen
+screen type1 0 2 0 5 0 0 0 0 -5 1920 1080 endl
+
+#Adding  an observer
+observer type1 0 0 0 endl
+
+#Adding lights
+light type1 0 0 2 255 255 255 endl
+light type1 0 15 2 255 255 255 endl
+
+#adding planes that work like walls
+#bot
+object DiffusePlane type1 0 0 -2.5 0 0 -1 0.627451 0.478431 0.301961 endl
+#top
+object DiffusePlane type1 0 0 2.5 0 0 1 0.627451 0.478431 0.301961 endl
+#right 				 
+object MRPlane type1 2.5 0 0 1 0 0 0.2 0 0.89 0.1 0 0.15 0.85
+#left
+object MRPlane type1 -2.5 0 0 1 0 0 0.2 0 0.89 0.1 0 0.15 0.85
+ 
+#//back
+object DiffuseSphere type1 0 10 0 0.2 0 0.5 0.8 endl
+#//Cyan
+#object DiffuseSphere type1 0 5 -2 0.5 0.8 0.8 0 endl
+#//Yellow
+#object DiffuseSphere type1 2 5 -2 0.5 0 0.8 0.8 endl
+#//Magenta
+#object DiffuseSphere type1 -2 5 -2 0.5 0.8 0 0.8 endl
+#//Orange
+#object DiffuseSphere type1 1 5.5 -2 0.5 0.278431 0.509804 1 endl
+#//sgi teal
+#object DiffuseSphere type1 -1 5.5 -2 0.5 0.557 0.557 0.22 endl
+
+#//back
+#object MRSphere type1 0 10 0 0.2 0 0.5 0.8 0.9 0.9 0.1 0 endl
+#//Cyan
+object MRSphere type1 0 5 -2 0.5 0.8 0.8 0 0.9 0.9 0.1 0 endl
+#//Yellow
+object MRSphere type1 2 5 -2 0.5 0 0.8 0.8 0.9 0.9 0.1 0 endl
+#//Magenta
+object MRSphere type1 -2 5 -2 0.5 0.8 0 0.8 0.9 0.9 0.1 0 endl
+#//Orange
+object MRSphere type1 1 5.5 -2 0.5 0.278431 0.509804 1 0.9 0.9 0.1 0 endl
+#//sgi teal
+object MRSphere type1 -1 5.5 -2 0.5 0.557 0.557 0.22 0.9 0.9 0.1 0 endl
+
+#Refractive sphere
+object MRSphere type1 0 5 0 1 0.5 0.43 .25 1.2 0.1 1 1 endl
